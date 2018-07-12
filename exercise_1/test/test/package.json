@@ -1,0 +1,14 @@
+{
+  "name": "rhex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "remotemathservice_fixed.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

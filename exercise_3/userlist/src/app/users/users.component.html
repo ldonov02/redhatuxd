@@ -1,0 +1,13 @@
+
+<h2>Users</h2>
+<ul class="users">
+  <li>
+  	<span class="box">Name</span><span class="box">Username</span><span class="box">E-mail</span><span class="box">Address</span>
+  </li>
+  <li *ngFor="let user of users">
+  	<a routerLink="/detail/{{user.id}}">
+   		<span class="box">{{user.name}}</span><span class="box">{{user.username}}</span><span class="box">{{user.email}}</span><span class="box">{{user.address.street + "\n" + user.address.suite + ", " + user.address.city + " " + user.address.zipcode}}</span>
+  	</a>
+  </li>
+</ul>
+ 

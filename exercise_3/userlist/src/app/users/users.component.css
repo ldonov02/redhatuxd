@@ -1,0 +1,23 @@
+.users{
+	display:table;
+
+}
+.box {
+	display:table-cell;
+	border:1px solid black;
+	width:200px;
+}
+
+ul{
+	list-style: none
+}
+
+li{
+
+	height:fit-content;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}

@@ -1,0 +1,82 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+  	background-image:
+  		radial-gradient(circle at top left, #ededed, #bbb),
+    	radial-gradient(circle at top right, #bbb, #ededed);
+}
+
+#wrapper {
+	display:flex;
+	width:538px;
+	height:333px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.box {
+	width: 536px;
+	flex-direction: column;
+ 	position: absolute;
+  	top: 30%;
+  	border: 1px solid white;
+}
+
+.redbox {
+	color: white;
+	display: inline-flex;
+	flex-direction: row;
+  	background-image: linear-gradient(#c00, #470000);
+  	width:536px;
+  	height:50px;
+}
+
+.whitebox {
+	display: inline-block;
+	background-color: white;
+	padding: 5px 10px 5px 10px;
+	width: 516px;
+	height: 283px;
+
+}
+
+.lblock {
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.rblock {
+	padding-left: 260px
+}
+
+.button1{
+	padding: 16px;
+	background-image: radial-gradient(circle at center, #c00, #470000);
+    border-left: 1px solid white;
+
+}
+
+.button2{
+	padding: 16px;
+	font-weight: 100;
+	border-left: 1px solid white;
+}
+
+.highlight {
+	background-color: green;
+	color: white;
+	padding: 3px;
+	border-radius: 3px;
+} 
+
+.data1 {
+	padding-right: 75px;
+}
+
+.data2 {
+	color: gray;
+}
